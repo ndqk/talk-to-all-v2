@@ -1,0 +1,5 @@
+.ContentBoxChat{
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+}

@@ -1,0 +1,3 @@
+export const RESPONSE_SUCCESS = 'RESPONSE_SUCCESS';
+
+export const CLOSE_MODAL = 'CLOSE_MODAL';

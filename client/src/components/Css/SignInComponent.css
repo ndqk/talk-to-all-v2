@@ -1,0 +1,21 @@
+.SignInComponent{
+    width: 40%;
+    height: 50vh;
+    margin-top: 25vh;
+    margin-left: 30%;
+    text-align: center;
+}
+.SignInComponent .error{
+    color: #721c24;
+    width: 95%;
+    margin-left: 2.5%;
+    border: solid 1px #f5c6cb;
+    background-color: #f8d7da;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.SignInComponent .LogoSignIn{
+    text-align: center;
+}

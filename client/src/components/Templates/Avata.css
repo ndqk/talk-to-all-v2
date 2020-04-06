@@ -1,0 +1,22 @@
+.Avata{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Avata .Avata_{
+    display: flex;
+    justify-content: center;
+}
+.Avata .Avata_ div{
+    overflow: hidden;
+}
+.Avata .Avata_ div img{
+    height: 100%;
+}
+.Rounded{
+    border-radius: 20%;
+}
+.Circle{
+    border-radius: 50%;
+}

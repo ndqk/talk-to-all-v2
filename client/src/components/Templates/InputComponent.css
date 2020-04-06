@@ -1,0 +1,21 @@
+.InputComponent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.InputComponent .InputComponent_{
+    padding: 0  10px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.InputComponent .InputComponent_ input{
+    height: 50px;
+    width: 100%;
+    padding: 0 5px 0 5px;
+    border: solid 1px lightgrey;
+    border-radius: 20px;
+}
+.InputComponent_ input:focus{
+    outline: none;
+}

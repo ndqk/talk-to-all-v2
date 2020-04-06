@@ -1,0 +1,9 @@
+.InputBoxChat{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.InputBoxChat .MoreInput{
+    height: 100%;
+    display: flex;
+}

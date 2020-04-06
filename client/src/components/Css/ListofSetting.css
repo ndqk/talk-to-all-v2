@@ -1,0 +1,24 @@
+.ListofSetting{
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+}
+.ListofSetting .ListHead{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+.ListofSetting .ListHead .ListState{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+.ListofSetting .ListHead .ListState div{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}

@@ -1,0 +1,2 @@
+export const GET_ERROR_RESPONSE = 'GET_ERROR_RESPONSE'; 
+export const CLOSE_MODAL = 'CLOSE_MODAL';

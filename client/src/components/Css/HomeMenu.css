@@ -1,0 +1,14 @@
+.HomeMenu{
+    height: 10%;
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.HomeMenu .HomeMenuLabel{
+    display: flex;
+}
+.HomeMenu .HomeMenuBtn{
+    height: 100%;
+    display: flex;
+}

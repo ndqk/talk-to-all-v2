@@ -1,0 +1,13 @@
+.Notification{
+    padding-bottom: 10px;
+    height: 400px;
+    overflow: auto;
+}
+.NotificationItem{
+    padding: 0 0 0 10px;
+    border-bottom: solid 1px lightgray;
+    cursor: pointer;
+}
+.new{
+    font-weight: bold;
+}

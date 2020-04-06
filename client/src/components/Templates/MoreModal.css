@@ -1,0 +1,61 @@
+.MoreModal{
+    position:  absolute;
+    width: 40%;
+    left: 30%;
+    top:15vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    z-index: 2;
+}
+
+.MoreModal .HeadModal{
+    height: 50px;
+    width: 100%;
+    border-bottom: ridge 1px lightgray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.MoreModal .PrevBtnModal{
+    position: absolute;
+    top: 0;
+    left : 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+.MoreModal .PrevBtnModal img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.MoreModal .HideModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+.MoreModal .HideModal span{
+    padding: 0 10px 0 10px;
+    color: #3578E5;
+    cursor: pointer;
+}
+
+.success-alert{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.success-alert p{
+    padding: 0 5px 0 5px;
+}

@@ -1,0 +1,13 @@
+.TextLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.TextLabel span{
+    padding: 0 10px 0 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.TextLabel span p{
+    font-weight: bold;
+}

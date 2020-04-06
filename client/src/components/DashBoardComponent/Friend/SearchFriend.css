@@ -1,0 +1,13 @@
+.SearchFriend{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Search{
+    height: 15%;
+}
+.SearchResult{
+    height: 85%;
+    overflow: auto;
+}

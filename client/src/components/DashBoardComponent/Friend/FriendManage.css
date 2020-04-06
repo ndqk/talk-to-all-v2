@@ -1,0 +1,21 @@
+.FriendManage{
+    height: 100%;
+}
+.FriendManage .NavTab{
+    display: flex;
+    height: 10%;
+}
+.FriendManage .NavTab div{
+    border-left: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    width: 32.5%;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.FriendManage .contentTab{
+    height: 90%;
+}
+.active{
+    font-weight: bold;
+}

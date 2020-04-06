@@ -1,0 +1,28 @@
+.ProfileSettingItem{
+    padding: 20px 0 20px 0;
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: ridge 1px lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.ProfileSettingItem .inforProfile{
+    width: 55%;
+    display: flex;
+}
+.btnChange{
+    display:flex;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+}
+.btnChange button{
+    height: 40px;
+    width: 100px;
+    margin: 0 10px 0 10px;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btnChange button:focus{
+    outline: none;
+}

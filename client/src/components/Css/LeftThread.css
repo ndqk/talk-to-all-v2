@@ -1,0 +1,26 @@
+.LeftThread{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+}
+.LeftThread .LeftThread_{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.LeftThread .LeftThread_ .Thread{
+    height: 100%;
+    padding: 0 10px 0 10px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.LeftThread .LeftThread_ .Thread:hover{
+    border: solid 1px lightgray;
+    background-color: lightgray;
+}

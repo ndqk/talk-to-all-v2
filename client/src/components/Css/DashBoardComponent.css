@@ -1,0 +1,45 @@
+.DashBoardComponent{
+    height: 100vh;
+    position: relative;
+}
+.DashBoardComponent .DashBoardContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.Logo{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.Username{
+    width: 100%;
+    padding-bottom: 30px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.DashBoardComponent .DashBoardOption{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.DashBoardComponent .DashBoardOption .OptionList{
+    width: 50%;
+    height: 100%;
+    border: solid 1px;
+    border-radius: 30px;
+}
+.DashBoardOption .OptionList .OptionItem{
+    float: left;
+    width: 25%;
+    margin: 20px 0 20px 6.25%;
+}
+.DashBoardOption .OptionList::after{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,18 @@
+.ButtonItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ButtonItem .ButtonItem_{
+    display: flex;
+    justify-content: center;
+}
+.ButtonItem .ButtonItem_ button{
+    overflow: hidden;
+    cursor: pointer;
+    background: white;
+    border: none;
+}
+.ButtonItem .ButtonItem_ button:focus{
+    outline: none;
+}
